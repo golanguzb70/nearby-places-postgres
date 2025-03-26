@@ -1,13 +1,11 @@
-version: '3.8'
-
 services:
   nearby-places-not-optimized:
     image: postgres:latest
     container_name: nearby-places-not-optimized
     environment:
       POSTGRES_PASSWORD: 12345
-      POSTGRES_USER: nearby-places-not-optimized
-      POSTGRES_DB: nearby-places-not-optimized
+      POSTGRES_USER: nearby-places
+      POSTGRES_DB: nearby-places
     ports:
       - "5433:5432"
     volumes:

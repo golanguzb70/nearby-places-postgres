@@ -5,6 +5,6 @@ CREATE TABLE places (
     latitude DOUBLE PRECISION NOT NULL,  
     longitude DOUBLE PRECISION NOT NULL,
     created_at TIMESTAMP DEFAULT NOW(),
-    updated_at TIMESTAMP DEFAULT NOW() ON UPDATE NOW()
+    updated_at TIMESTAMP DEFAULT NOW()
 );
 
